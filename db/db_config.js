@@ -24,5 +24,4 @@ if (env !== 'Dev') {
 
 const pool = new Pool(connection)
 
-
 module.exports = pool;

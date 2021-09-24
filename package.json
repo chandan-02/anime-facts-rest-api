@@ -20,7 +20,11 @@
   },
   "homepage": "https://github.com/chandan-02/anime-facts-rest-api#readme",
   "dependencies": {
-    "express": "^4.17.1"
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "morgan": "^1.10.0",
+    "pg": "^8.7.1"
   },
   "devDependencies": {
     "nodemon": "^2.0.12"

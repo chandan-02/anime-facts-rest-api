@@ -2,7 +2,6 @@
 
 An API in Node.js that will return anime facts .
 
-
 ## Rebuild project :
 - Clone the repo : `git clone https://github.com/chandan-02/anime-facts-rest-api.git`
 - Install necessary dependencies : `cd anime-facts-rest-api` & `npm install`

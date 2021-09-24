@@ -1,6 +1,5 @@
-CREATE DATABASE anime_facts_api ;
-
-\c anime_facts_api
+-- CREATE DATABASE anime_facts_api ;
+-- \c anime_facts_api
 
 CREATE TABLE animes(
     anime_id SERIAL PRIMARY KEY NOT NULL,

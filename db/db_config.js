@@ -6,9 +6,11 @@ const env = process.env.NODE_ENV || 'Dev';
 let connection = {};
 
 if (env !== 'Dev') {
-    connection= {
+    connection = {
         connectionString: process.env.DATABASE_URL,
-        ssl: true
+        ssl: {
+            rejectUnauthorized: false
+        }
     }
 } else {
     connection = {

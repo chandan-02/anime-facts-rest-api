@@ -14,7 +14,7 @@ if (env !== 'Dev') {
     }
 } else {
     connection = {
-        database: process.env.DB_DATA,
+        database: process.env.DB_DATABASE,
         user: process.env.DB_USER,
         localhost: process.env.DB_HOST,
         password: process.env.DB_PASSWORD,

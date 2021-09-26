@@ -35,7 +35,7 @@ const v1_get_facts_by_id = async(req, res) => {
         let query = `SELECT * FROM ${anime_name} WHERE fact_id=${fact_id}`;
         const data = await pool.query(query);
         if(data.rowCount !== 0){
-            res.status(200).json({ success: true, data: data.rows })
+            res.status(200).json({ success: true, data: data.rows[0] })
             return
         }
         res.status(200).json({ success: false, data: "id out of range" })

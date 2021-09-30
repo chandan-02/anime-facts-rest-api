@@ -77,8 +77,8 @@ Get all facts related to an Anime  : `https://anime-facts-rest-api.herokuapp.com
 
 - Install necessary dependencies : `cd anime-facts-rest-api` & `npm install`
 
-- Create a database and tables in postgreSQL add data in them ( use data.sql ).
+- Create a database and tables in postgreSQL & add data in them ( use data.sql ).
 
-- Create an .env file and fill the required **postgres** details.
+- Create an .env file and fill the required **postgres connection** details.
 
 - Run : `npm run dev`

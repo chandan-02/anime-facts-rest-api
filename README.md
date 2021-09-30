@@ -66,7 +66,7 @@ Get all facts related to an Anime  : `https://anime-facts-rest-api.herokuapp.com
 	data: {
 			fact_id: 2,
 			fact: "Arakawa Actually Bought Military Prop Guns For Drawing References"
-		}
+	}
 	
 }
 ```

@@ -38,7 +38,7 @@ const v1_get_facts_by_id = async(req, res) => {
             res.status(200).json({ success: true, data: data.rows[0] })
             return
         }
-        res.status(200).json({ success: false, data: "id out of range" })
+        res.status(404).json({ success: false, data: "id out of range" })
     } catch (error) {
         console.log(error)
         res.status(404).json({ success: false, data: "anime_name provided doesn't exists" })

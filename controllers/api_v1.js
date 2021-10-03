@@ -30,7 +30,6 @@ const v1_get_facts = async(req, res) => {
 
 const v1_get_facts_by_id = async(req, res) => {
     const {anime_name,fact_id} = req.params;
-    console.log(anime_name)
     try {
         let query = `SELECT * FROM ${anime_name} WHERE fact_id=${fact_id}`;
         const data = await pool.query(query);

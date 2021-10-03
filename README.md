@@ -71,7 +71,7 @@ Get all facts related to an Anime  : `https://anime-facts-rest-api.herokuapp.com
 }
 ```
 
-# Rebuild project :
+# [Rebuild project](https://www.youtube.com/watch?v=PDl5CP9XZwo) :
 
 - Clone the repo : `git clone https://github.com/chandan-02/anime-facts-rest-api.git`
 

@@ -9,7 +9,7 @@ CREATE TABLE animes(
 
 INSERT INTO animes (anime_name,anime_img) VALUES('bleach','https://m.media-amazon.com/images/M/MV5BZjE0YjVjODQtZGY2NS00MDcyLThhMDAtZGQwMTZiOWNmNjRiXkEyXkFqcGdeQXVyNTA4NzY1MzY@._V1_FMjpg_UX1000_.jpg') ON CONFLICT (anime_name) DO NOTHING;
 INSERT INTO animes (anime_name,anime_img) VALUES('black_clover','https://m.media-amazon.com/images/M/MV5BNTAzYTlkMWEtOTNjZC00ZDU0LWI5ODUtYTRmYzY0MTAzYWZlXkEyXkFqcGdeQXVyMzgxODM4NjM@._V1_FMjpg_UX1000_.jpg') ON CONFLICT (anime_name) DO NOTHING;
-INSERT INTO animes (anime_name,anime_img) VALUES('dragon_ball','https://m.media-amazon.com/images/M/MV5BNTAzYTlkMWEtOTNjZC00ZDU0LWI5ODUtYTRmYzY0MTAzYWZlXkEyXkFqcGdeQXVyMzgxODM4NjM@._V1_FMjpg_UX1000_.jpg') ON CONFLICT (anime_name) DO NOTHING;
+INSERT INTO animes (anime_name,anime_img) VALUES('dragon_ball','https://m.media-amazon.com/images/M/MV5BMGMyOThiMGUtYmFmZi00YWM0LWJiM2QtZGMwM2Q2ODE4MzhhXkEyXkFqcGdeQXVyMjc2Nzg5OTQ@._V1_FMjpg_UX1000_.jpg') ON CONFLICT (anime_name) DO NOTHING;
 INSERT INTO animes (anime_name,anime_img) VALUES('jujutsu_kaisen','https://m.media-amazon.com/images/M/MV5BNzQyYzU3Y2MtOWY2Yy00ZGM2LTg3ZTUtMDJkZTJiMmEzMjYxXkEyXkFqcGdeQXVyMTI2NTY3NDg5._V1_.jpg') ON CONFLICT (anime_name) DO NOTHING;
 INSERT INTO animes (anime_name,anime_img) VALUES('fma_brotherhood','https://m.media-amazon.com/images/M/MV5BZmEzN2YzOTItMDI5MS00MGU4LWI1NWQtOTg5ZThhNGQwYTEzXkEyXkFqcGdeQXVyNTA4NzY1MzY@._V1_.jpg') ON CONFLICT (anime_name) DO NOTHING;
 INSERT INTO animes (anime_name,anime_img) VALUES('naruto','https://m.media-amazon.com/images/M/MV5BZmQ5NGFiNWEtMmMyMC00MDdiLTg4YjktOGY5Yzc2MDUxMTE1XkEyXkFqcGdeQXVyNTA4NzY1MzY@._V1_.jpg') ON CONFLICT (anime_name) DO NOTHING;

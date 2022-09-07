@@ -145,6 +145,9 @@ INSERT INTO one_piece (fact) VALUES('Boa Hancock is the only known female charac
 INSERT INTO one_piece (fact) VALUES('None of the males in the Strawhats knew how to tie a tie untill they met Sanji') ON CONFLICT (fact) DO NOTHING;
 INSERT INTO one_piece (fact) VALUES('At age 19 Luffy is the youngest member of all 12 members of the Worst Generation.') ON CONFLICT (fact) DO NOTHING;
 INSERT INTO one_piece (fact) VALUES('Its said that during Zoro s fight with Mr 1 its the first instance of Zoro using observation haki.') ON CONFLICT (fact) DO NOTHING;
+INSERT INTO one_piece (fact) VALUES('The world of One Piece is almost entirely made up of pirates in search of glory and the equally vicious Marines who claim to be able to keep them in check.') ON CONFLICT (fact) DO NOTHING;
+INSERT INTO one_piece (fact) VALUES('Long before Roger claimed One Piece for himself, at least some of the One Piece belonged to a man named Joy Boy during what is known as the Void Century.') ON CONFLICT (fact) DO NOTHING;
+INSERT INTO one_piece (fact) VALUES('The world government was ready to pay 5 billion barries for Ope Ope no mi.') ON CONFLICT (fact) DO NOTHING;
 
 
 
